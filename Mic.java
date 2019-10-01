@@ -11,7 +11,7 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.DataLine;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.TargetDataLine;
-
+// This Class Acts As Mic On client Side
 public class Mic 
 {
     public byte[] buffer;
@@ -73,4 +73,5 @@ public class Mic
             // TODO: handle exception
         }
     }
+    // Change Endianess According to your Machine
 }
